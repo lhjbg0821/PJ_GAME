@@ -10,7 +10,7 @@ class GameScene extends Phaser.GameScene {
 
   create() {
     this.bg = this.add
-      .tileSprite(0, 0, WIDTH, HEIGHT, "bg0") //tileSprite로 타일 배경 읽어들이기
+      .tileSprite(0, 0, WIDTH, HEIGHT, "bg") //tileSprite로 타일 배경 읽어들이기
       .setScale(8) //작은 이미지라서 크기 키워줌
       .setOrigin(0, 0);
     this.bg2 = this.add
